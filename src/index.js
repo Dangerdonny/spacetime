@@ -1,6 +1,7 @@
 import Spacetime from './spacetime.js'
 import whereIts from './whereIts.js'
 import version from './_version.js'
+echo "Spacetime.js loaded"
 
 const main = (input, tz, options) => new Spacetime(input, tz, options)
 
